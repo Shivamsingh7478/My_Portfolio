@@ -1,17 +1,34 @@
 // filepath: d:\webdev\web3\portfolio\My_portfolio\src\components\navbar.jsx
 import './navbar.css';
 import { Link as ScrollLink } from 'react-scroll';
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect } from 'react';
+
 
 export const Navbar = () => {
+
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.pathname === '/' && location.hash === '#projects') {
+            document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
+        }
+    }, [location]);
+
     return (
         <nav className="navbar">
             <ul className='Navbar-links'>
                 <li><Link to="/">Home</Link></li>
                 <li>
-                    <ScrollLink to="projects" smooth={true} duration={500} style={{ cursor: 'pointer' }}>
-                        Projects
-                    </ScrollLink>
+                {location.pathname === '/' ? (
+                        <ScrollLink to="projects" smooth={true} duration={500} style={{ cursor: 'pointer' }}>
+                            Projects
+                        </ScrollLink>
+                    ) : (
+                        <Link to="/#projects" style={{ cursor: 'pointer' }}>
+                            Projects
+                        </Link>
+                    )}
                 </li>
                 <li><Link to="/resume">Resume</Link></li>
             </ul>
