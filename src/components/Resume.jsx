@@ -2,10 +2,10 @@ import React from "react";
 import "./resume.css";
 
 export const Resume = () => {
-  const resumeImage = "/Shivam_Singh_Resume.png"; // Make sure it's in public folder
+  const resumeImage = "/Shivam_Singh_Resume(1)-1.png"; // Make sure it's in public folder
 
   const handleDownload = () => {
-    const resumeURL = "/Shivam_Singh_Resume_.pdf"; // Keep original PDF for download
+    const resumeURL = "/Shivam_Singh_Resume(1).pdf"; // Keep original PDF for download
     window.open(resumeURL, "_blank");
   };
 

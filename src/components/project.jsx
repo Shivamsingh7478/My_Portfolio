@@ -4,6 +4,30 @@ export const Project = () => {
     return (<div>
          <h1 className="heading">Projects</h1>
 
+
+         <div className='project-card'>
+                <div className='project-image'>
+                    <img src="" alt="" />
+                </div>
+
+                <div className='project-info'>
+                    <h2 className='project-title'>Portfolio</h2>
+                    <p className='project-description'>
+                    Curated a professional, visually appealing portfolio using React.js with single-page functionality, showcasing 3+ innovative projects with interactive elements, effectively demonstrating technical skills, boosting user engagement, and attracting potential employers.
+• Improved website loading time by 25%, enhancing performance and compatibility across multiple devices, ensuring a consistent and user-friendly experience.
+                    </p>
+
+                    <div className='project-btn'>
+                        <a href="https://github.com/Shivamsingh7478/My_portfolio" className='btn btn-primary'>
+                        GitHub Repository - Frontend
+                        </a>
+                        {/* <a href="" className='btn btn-primary'>
+                        GitHub Repository - Backend
+                        </a> */}
+                    </div>
+                </div>
+         </div>
+
          <div className='project-card'>
                 <div className='project-image'>
                     <img src="" alt="" />
