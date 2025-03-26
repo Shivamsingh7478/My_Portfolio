@@ -21,12 +21,12 @@ export const Project = () => {
                     </p>
 
                     <div className='project-btn'>
-                        <a href="" className='btn btn-primary'>
+                        <a href="https://github.com/Shivamsingh7478/Web3_wallet" className='btn btn-primary'>
                         GitHub Repository - Frontend
                         </a>
-                        <a href="" className='btn btn-primary'>
+                        {/* <a href="" className='btn btn-primary'>
                         GitHub Repository - Backend
-                        </a>
+                        </a> */}
                     </div>
                 </div>
          </div>
@@ -49,7 +49,7 @@ export const Project = () => {
                     </p>
 
                     <div className='project-btn'>
-                        <a href="" className='btn btn-primary'>
+                        <a href="https://github.com/Shivamsingh7478/Web_Portal" className='btn btn-primary'>
                         GitHub Repository - Frontend
                         </a>
                         <a href="" className='btn btn-primary'>
