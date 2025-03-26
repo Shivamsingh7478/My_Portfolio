@@ -1,12 +1,12 @@
 {
-  "homepage":"https://Shivamsingh7478.github.io/My_portfolio",
-  "name": "my_resume", 
+  "homepage": "https://Shivamsingh7478.github.io/My_portfolio",
+  "name": "my_resume",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
@@ -15,7 +15,8 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.3.0"
+    "react-router-dom": "^7.3.0",
+    "react-scroll": "^1.9.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

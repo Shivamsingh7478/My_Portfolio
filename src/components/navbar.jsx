@@ -1,16 +1,19 @@
+// filepath: d:\webdev\web3\portfolio\My_portfolio\src\components\navbar.jsx
 import './navbar.css';
+import { Link as ScrollLink } from 'react-scroll';
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
     return (
         <nav className="navbar">
-            {/* //i want list what i want to show in the navbar
-            //and then my name in middle  aand again list of what i want to show in the navbar */}
-            
             <ul className='Navbar-links'>
-            <li><Link to="/">Home</Link></li>
-                <li><Link to="/">Projects</Link></li>
-                <li><Link to="/resume">Resume</Link></li> 
+                <li><Link to="/">Home</Link></li>
+                <li>
+                    <ScrollLink to="projects" smooth={true} duration={500} style={{ cursor: 'pointer' }}>
+                        Projects
+                    </ScrollLink>
+                </li>
+                <li><Link to="/resume">Resume</Link></li>
             </ul>
             <div className='nav-title'>Portfolio</div>
             <ul className='Navbar-links'>

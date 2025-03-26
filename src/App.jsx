@@ -22,8 +22,11 @@ function App() {
            <Route path="/" element={<>
              <About />
              <Skills />
-             <Project />
+             <div id="projects">
+                 <Project />
+               </div>
               </>} />
+            
            <Route path="/resume" element={<Resume />} />
 
         </Routes>
