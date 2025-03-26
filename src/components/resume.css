@@ -1,0 +1,44 @@
+.resume-container {
+    text-align: center;
+    padding: 20px;
+    /* background-color: #f4f4f4; */
+  }
+  
+  .full-resume {
+    width: 50%; /* Reduced width */
+    height: 80%; /* Adjusted height for better fit */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .resume-buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .btn-download {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-share {
+    background-color: #28a745;
+    color: white;
+  }
+
+  h1{
+    color: white;
+  }
+
+  .resume-note{
+    color: white;
+  }
+  

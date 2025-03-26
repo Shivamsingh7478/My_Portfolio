@@ -1,0 +1,70 @@
+.About {
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.About-section  {
+    
+    margin: 50px;
+    max-width: 50%;
+}
+
+.Image-section img {
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    margin-right: 170px;
+    margin-top: 60px;
+}
+
+.intro{
+    border-radius: 12px;
+    border: 2px solid white;
+    padding: 8px;
+    display: inline-block;
+    border-color: azure;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.emoji{
+    margin-right: 2px;
+    display: inline-block;
+    animation: wave 1s infinite ease-in-out; /* Waving animation */
+}
+
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(15deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-15deg); }
+    100% { transform: rotate(0deg); }
+}
+
+
+.name{
+    color: white;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.highlight {
+    color: #fdfdfd;
+    text-shadow: 0px 0px 10px #baccc1;
+    font-weight: bold;
+}
+
+
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+}

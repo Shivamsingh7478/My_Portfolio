@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #393939;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Navbar-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Navbar-links li {
+    margin-left: 16px;
+}
+
+.Navbar-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.Navbar-links a:hover{
+    color:gray;
+}
+
+.nav-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+    
+}

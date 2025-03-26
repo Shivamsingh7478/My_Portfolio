@@ -1,0 +1,11 @@
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  background-color: #393939;
+}
+
+.App {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
